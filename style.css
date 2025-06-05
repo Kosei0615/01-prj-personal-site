@@ -59,3 +59,35 @@ body {
     padding: 20px 10px;
   }
 }
+
+/* ...existing code... */
+
+/* Style for your profile photo */
+.profile-photo {
+  width: 120px; /* Makes the photo smaller */
+  height: 120px;
+  border-radius: 50%; /* Makes the photo round */
+  object-fit: cover; /* Keeps the photo from stretching */
+  margin-bottom: 16px;
+  border: 3px solid #fff; /* White border for style */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Soft shadow */
+}
+
+/* Style for links in the hero section */
+.hero a {
+  display: inline-block;
+  margin: 8px 8px 0 8px;
+  padding: 8px 16px;
+  background: #fff;
+  color: #6a82fb;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.hero a:hover {
+  background: #f0f4ff;
+}
+
+/* ...existing code... */
