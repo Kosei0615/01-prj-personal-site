@@ -1,1 +1,61 @@
 /* Add you CSS here */
+/* Basic reset to remove default browser styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Clean, modern font */
+  background: #f6f8fa; /* Light background color */
+  color: #222; /* Dark text for good contrast */
+}
+
+/* Hero section styles */
+.hero {
+  background: linear-gradient(120deg, #6a82fb, #fc5c7d); /* Cool gradient background */
+  color: white; /* White text for contrast */
+  text-align: center; /* Center the text */
+  padding: 60px 20px; /* Space around the content */
+  border-bottom-left-radius: 40px; /* Rounded corner for style */
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07); /* Soft shadow */
+}
+
+/* Bio section styles */
+.bio {
+  background: white;
+  max-width: 600px; /* Limit width for readability */
+  margin: 40px auto 0 auto; /* Center the section */
+  padding: 30px 20px;
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Soft shadow */
+}
+
+/* Skills section styles */
+.skills {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.skills ul {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0;
+}
+
+.skills li {
+  background: #f0f4ff; /* Light blue background */
+  color: #333;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block; /* Make skills appear side by side */
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+  .hero, .bio, .skills {
+    padding: 20px 10px;
+  }
+}
