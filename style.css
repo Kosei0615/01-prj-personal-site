@@ -91,3 +91,31 @@ body {
 }
 
 /* ...existing code... */
+/* Simple navigation bar styles */
+.navbar {
+  background-color: #6a82fb; /* Blue background */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline; /* Display links side by side */
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #fff; /* White text */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
